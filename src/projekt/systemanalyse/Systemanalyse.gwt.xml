@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="systemanalyse">
+	<inherits name='com.google.gwt.user.User'/>
+	<inherits name='com.google.gwt.user.theme.standard.Standard'></inherits>
+	<inherits name='com.smartgwt.SmartGwt'></inherits>
+	<inherits name='com.google.gwt.uibinder.UiBinder' />
+	<entry-point class='projekt.systemanalyse.client.Systemanalyse' />
+	<source path='client' /> 
+  	<source path='shared' /> 
+  	<source path='test' />
+  	<inherits name='com.google.gwt.junit.JUnit'/>
+</module>
